@@ -167,7 +167,7 @@ header {
 .input-box label{
     position: absolute;
     top: 50%;
-    left: 5px;
+    left: 0;
     transform: translateY(-50%);
     font-size: 1em;
     color: #162938;
@@ -178,7 +178,8 @@ header {
 
 .input-box input:focus~label,
 .input-box input:valid~label{
-    top: -5px;
+    top: -6px;
+    font-size: 12px;
 }
 
 .input-box input{
