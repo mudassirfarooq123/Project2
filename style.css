@@ -176,9 +176,15 @@ header {
     transition: .5s;
 }
 
-.input-box input:focus~label,
+/* .input-box input:focus~label,
 .input-box input:valid~label{
     top: -6px;
+} */
+.input-box input:focus~label,
+.input-box input:not(:placeholder-shown)~label{
+    top: -6px;                /* Moves to top */
+    transform: translateY(0); /* Removes centering conflict */
+    font-size: 0.8em;         /* Makes it smaller */
 }
 
 .input-box input{
