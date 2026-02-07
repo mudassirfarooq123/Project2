@@ -199,8 +199,9 @@ header {
     right: 8px;
     font-size: 1.2em;
     color: #162938;
-    top: 50%;
     line-height: 57px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .remember-forgot{
