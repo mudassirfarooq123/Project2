@@ -179,6 +179,7 @@ header {
 .input-box input:focus~label,
 .input-box input:valid~label{
     top: -6px;
+    font-size: .8em;
 }
 
 .input-box input{
@@ -198,6 +199,7 @@ header {
     right: 8px;
     font-size: 1.2em;
     color: #162938;
+    top: 50%;
     line-height: 57px;
 }
 
